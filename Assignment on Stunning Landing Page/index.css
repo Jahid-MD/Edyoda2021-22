@@ -108,7 +108,7 @@ button{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
-    margin:20px 20px 20px 0;
+    margin:20px 20px 20px 0 ;
     
 }
 
@@ -122,6 +122,10 @@ button{
     align-items: center ;
     padding: 10px 30px 10px 0px;
     cursor: pointer;
+    background-image: url('./images/tick-gray.png');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
 }
 .user span{
     color: rgba(0,0,0,0.4);
@@ -129,16 +133,11 @@ button{
 #user-name{
     display: block;
     width: 130px;
-    margin-left: 20px;
+    margin-left: 60px;
     color: rgba(0,0,0,1);
     font-weight: 600;
 }
-.tick-img1{
-    transform: translateX(100%);
-}
-.tick-img1:hover{
-    visibility: hidden;
-}
+
 .user div img{
     display: block;
 }
@@ -167,4 +166,8 @@ button{
     transform: scale(1.08);
     border-radius: 5px;
     box-shadow:-5px 13px 26px  #ccc;
+    background-image: url('./images/tick-blue.png');
 }
+
+
+
