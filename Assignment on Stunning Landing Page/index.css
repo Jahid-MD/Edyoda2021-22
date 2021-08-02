@@ -111,13 +111,16 @@ button{
     margin:20px 20px 20px 0 ;
 }
 
-.btns-wrapper img{
+.btns-wrapper img {
     cursor: pointer;
+   margin: 10px;
 }
+
 #user-list{
     width: 80%;
     margin: 70px 20px;
 }
+
 .user {
     display: flex;
     justify-content: space-between;
@@ -126,17 +129,26 @@ button{
     cursor: pointer;
     background-image: url('./images/tick-gray.png');
     background-repeat: no-repeat;
-    background-position-x: 10px;
+    background-position-x: 20px;
     background-position-y: center;
     margin: 10px 0;
 }
+
+.user:hover{
+    transform: scaley(1.08);
+    transition: all ease ;
+    border-radius: 5px;
+    box-shadow:-5px 13px 26px  #ccc;
+    background-image: url('./images/tick-blue.png');
+}
+
 .user span{
     color: rgba(0,0,0,0.4);
 }
 #user-name{
     display: block;
     width: 130px;
-    margin-left: 60px;
+    margin-left: 70px;
     color: rgba(0,0,0,1);
     font-weight: 600;
 }
@@ -164,12 +176,5 @@ button{
 }
 .yellow{
     background-color: #FFE4A0;
-}
-.user:hover{
-    transform: scaley(1.08);
-    transition: all ease ;
-    border-radius: 5px;
-    box-shadow:-5px 13px 26px  #ccc;
-    background-image: url('./images/tick-blue.png');
 }
 
